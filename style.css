@@ -7,6 +7,7 @@
 .flexible-container {
     display: flex;
     margin-left: 20px;
+    margin-bottom: 150px;
 }
 
 body {
@@ -16,14 +17,17 @@ body {
 
 .hero-pic {
     margin-top: 2%;
-    width: 70%;
-    margin-left: 10px;
+    width: 90%;
 }
 h1{
-    font-size: 350%;
-    color: a;
-    margin-top: 300px;
+    font-size: 600%;
+    margin-top: 150px;
     text-align-last: left;
+    width: max-content;
+}
+h2{
+    margin-top: 200px;
+    font-size: 50px;
 }
 .skip{
     color: orange;
@@ -38,9 +42,32 @@ h1{
 }
 p{
     font-size: large;
+    margin-bottom: 100px;
 
 }
-
-.happy-burger{
+.second-section{
     background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.female-person{
+    
+    width: 100%;
+    margin-left: 10px;
+    padding-left: 200px;
+    
+}
+.second-division{
+    margin-left: 500px;
+}
+.lorem{
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+.contact-me{
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 200px;
+    font-size: 20px;
+    padding: 20px;
 }
