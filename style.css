@@ -6,6 +6,7 @@
 
 .flexible-container {
     display: flex;
+    margin-left: 20px;
 }
 
 body {
@@ -15,4 +16,31 @@ body {
 
 .hero-pic {
     margin-top: 2%;
+    width: 70%;
+    margin-left: 10px;
+}
+h1{
+    font-size: 350%;
+    color: a;
+    margin-top: 300px;
+    text-align-last: left;
+}
+.skip{
+    color: orange;
+}
+.link-button{
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    background-color: orange;
+    padding: 10px 10px;
+}
+p{
+    font-size: large;
+
+}
+
+.happy-burger{
+    background-image: url(images/shapes/7.png);
 }
