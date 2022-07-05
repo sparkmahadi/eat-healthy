@@ -7,7 +7,7 @@
 .flexible-container {
     display: flex;
     margin-left: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
 
 body {
@@ -34,15 +34,18 @@ h2{
 }
 .link-button{
     background-image: linear-gradient(orange,tomato);
+    font-weight: 200px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
     color: white;
-    font-size: large;
-    border-radius: 20px;
-    background-color: orange;
-    padding: 10px 10px;
+    font: bold;
+    text-decoration: none;
 }
-p{
+.first-p{
     font-size: large;
     margin-bottom: 100px;
+    margin-right: 100px;
 
 }
 .second-section{
@@ -52,7 +55,6 @@ p{
 }
 
 .female-person{
-    
     width: 100%;
     margin-left: 10px;
     padding-left: 200px;
@@ -70,4 +72,56 @@ p{
     font-weight: 200px;
     font-size: 20px;
     padding: 20px;
+    border-radius: 30px;
+    color: white;
+    font: bold;
+    text-decoration: none;
+}
+.mid-section{
+    text-align: center;
+    margin: 10px 500px;
+}
+.recipe{
+    display: flex;
+    margin: 0px 200px;
+    text-align: left;
+    
+}
+.first-recipe{ 
+    width: 50%;
+    padding: 10 px 100px;
+}
+.first-recipe img{
+    width: 90%;
+}
+.second-recipe{
+    width: 50%;
+    padding: 10 px 100px;
+      
+}
+.second-recipe img{
+    width: 90%;
+}
+
+h3{
+    font-size:x-large;
+}
+.last-section{
+    display: flex;
+    text-align: center;
+    margin: 0px 20px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+}
+.eat{
+    color: orange;
+}
+.fresh{
+    color: lightslategray;
+}
+.final-p{
+    color: lightblue;
+    font-size: 20px;
 }
